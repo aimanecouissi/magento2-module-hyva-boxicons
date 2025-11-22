@@ -2,7 +2,7 @@
 
 [![Latest Stable Version](http://poser.pugx.org/aimanecouissi/module-hyva-boxicons/v)](https://packagist.org/packages/aimanecouissi/module-hyva-boxicons) [![Total Downloads](http://poser.pugx.org/aimanecouissi/module-hyva-boxicons/downloads)](https://packagist.org/packages/aimanecouissi/module-hyva-boxicons) [![Latest Unstable Version](http://poser.pugx.org/aimanecouissi/module-hyva-boxicons/v/unstable)](https://packagist.org/packages/aimanecouissi/module-hyva-boxicons) [![License](http://poser.pugx.org/aimanecouissi/module-hyva-boxicons/license)](https://packagist.org/packages/aimanecouissi/module-hyva-boxicons) [![PHP Version Require](http://poser.pugx.org/aimanecouissi/module-hyva-boxicons/require/php)](https://packagist.org/packages/aimanecouissi/module-hyva-boxicons)
 
-Add Boxicons SVG icon pack to **Hyvä Themes**, with separate **solid** and **outline** styles exposed as `SvgIcons` view
+Add Boxicons 3.0 SVG icon pack to **Hyvä Themes**, with separate **solid** and **outline** styles exposed as `SvgIcons` view
 models.
 
 > This module is built specifically for **Hyvä** frontends and assumes you already have a working Hyvä theme.
