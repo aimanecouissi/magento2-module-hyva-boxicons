@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Aimane Couissi - https://aimanecouissi.com
+ * Copyright © Aimane Couissi 2025–present. All rights reserved.
+ * Licensed under the MIT License. See LICENSE for details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="AimaneCouissi\HyvaBoxicons\ViewModel\BoxiconsSolid">
+        <arguments>
+            <argument name="iconPathPrefix" xsi:type="string">AimaneCouissi_HyvaBoxicons::svg/solid</argument>
+        </arguments>
+    </type>
+    <type name="AimaneCouissi\HyvaBoxicons\ViewModel\BoxiconsOutline">
+        <arguments>
+            <argument name="iconPathPrefix" xsi:type="string">AimaneCouissi_HyvaBoxicons::svg/outline</argument>
+        </arguments>
+    </type>
+</config>
