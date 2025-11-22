@@ -48,7 +48,7 @@ can autocomplete them.
 
 ### In CMS content
 
-If you configure Hyvä’s `SvgIcons` path prefixes to point to this module, you can also use Boxicons in CMS content:
+The module registers two icon prefixes for Hyvä `SvgIcons` (`boxicons-solid` and `boxicons-outline`). You can use Boxicons directly in CMS pages, blocks, and widgets:
 
 ```txt
 {{icon "boxicons-solid/home" classes="inline-block w-6 h-6" width=24 height=24}}
