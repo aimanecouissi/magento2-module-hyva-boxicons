@@ -30,8 +30,6 @@ use AimaneCouissi\HyvaBoxicons\ViewModel\BoxiconsSolid;
 use Hyva\Theme\Model\ViewModelRegistry;
 
 /** @var ViewModelRegistry $viewModels */
-/** @var BoxiconsSolid $boxiconsSolid */
-/** @var BoxiconsOutline $boxiconsOutline */
 
 $boxiconsSolid = $viewModels->require(BoxiconsSolid::class);
 $boxiconsOutline = $viewModels->require(BoxiconsOutline::class);
