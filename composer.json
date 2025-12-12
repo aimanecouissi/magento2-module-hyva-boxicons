@@ -1,7 +1,7 @@
 {
     "name": "aimanecouissi/module-hyva-boxicons",
     "version": "1.0.0",
-    "description": "Add Boxicons 3.0 SVG icon pack to Hyvä Themes",
+    "description": "Add Boxicons SVG icon pack to Hyvä Themes",
     "type": "magento2-module",
     "require": {
         "php": "~8.3.0||~8.4.0",
