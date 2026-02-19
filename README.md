@@ -64,4 +64,8 @@ bin/magento cache:flush
 
 ## License
 
-[MIT](LICENSE)
+The Boxicons SVG icons bundled in this module are created by
+[Atisa](https://github.com/atisawd/boxicons) and licensed under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+This module's source code is separately licensed under [MIT](LICENSE).
