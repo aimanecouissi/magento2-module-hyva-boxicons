@@ -2,7 +2,7 @@
 <!--
 /**
  * Aimane Couissi - https://aimanecouissi.com
- * Copyright © Aimane Couissi 2025–present. All rights reserved.
+ * Copyright © Aimane Couissi 2026–present. All rights reserved.
  * Licensed under the MIT License. See LICENSE for details.
  */
 -->
@@ -16,6 +16,11 @@
     <type name="AimaneCouissi\HyvaBoxicons\ViewModel\BoxiconsOutline">
         <arguments>
             <argument name="iconPathPrefix" xsi:type="string">AimaneCouissi_HyvaBoxicons::svg/outline</argument>
+        </arguments>
+    </type>
+    <type name="AimaneCouissi\HyvaBoxicons\ViewModel\BoxiconsBrands">
+        <arguments>
+            <argument name="iconPathPrefix" xsi:type="string">AimaneCouissi_HyvaBoxicons::svg/brands</argument>
         </arguments>
     </type>
 </config>
