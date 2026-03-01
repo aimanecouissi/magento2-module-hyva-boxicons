@@ -2,7 +2,7 @@
 
 [![Latest Stable Version](http://poser.pugx.org/aimanecouissi/module-hyva-boxicons/v)](https://packagist.org/packages/aimanecouissi/module-hyva-boxicons) [![Total Downloads](http://poser.pugx.org/aimanecouissi/module-hyva-boxicons/downloads)](https://packagist.org/packages/aimanecouissi/module-hyva-boxicons) [![Magento Version Require](https://img.shields.io/badge/magento-2.4.x-E68718)](https://packagist.org/packages/aimanecouissi/module-hyva-boxicons) [![License](http://poser.pugx.org/aimanecouissi/module-hyva-boxicons/license)](https://packagist.org/packages/aimanecouissi/module-hyva-boxicons) [![PHP Version Require](http://poser.pugx.org/aimanecouissi/module-hyva-boxicons/require/php)](https://packagist.org/packages/aimanecouissi/module-hyva-boxicons) [![Hyvä Compatibility](https://img.shields.io/badge/hyv%C3%A4-compatible-99004D)](https://packagist.org/packages/aimanecouissi/module-hyva-boxicons)
 
-Adds **Boxicons** 3.0.7 SVG icon pack to **Hyvä Themes**, with `solid`, `outline`, and `brands` styles each exposed as an `SvgIcons` view model.
+Integrates the **Boxicons** 3.0.7 SVG icon pack into **Hyvä Themes**, exposing `solid`, `outline`, and `brands` styles as dedicated `SvgIcons` view models.
 
 > This module is built specifically for **Hyvä** frontends and assumes you already have a working Hyvä theme.
 
@@ -18,7 +18,7 @@ bin/magento cache:flush
 
 ### In Hyvä PHTML templates
 
-Require the view models for the styles you need and render icons via their helper methods:
+Require the view models for the styles you need and call their helper methods to render icons:
 ```php
 <?php
 
@@ -40,11 +40,11 @@ $boxiconsBrands = $viewModels->require(BoxiconsBrands::class);
 <?= $boxiconsBrands->githubHtml('w-4 h-4', 16, 16, ['aria-label' => 'GitHub']) ?>
 ```
 
-The available methods are generated from the SVG filenames and documented in the PHPDoc on each view model, so your IDE can autocomplete them.
+Methods are generated from SVG filenames and fully documented via PHPDoc on each view model, so your IDE can autocomplete them.
 
 ### In CMS content
 
-The module registers three icon prefixes for Hyvä `SvgIcons` (`boxicons-solid`, `boxicons-outline`, and `boxicons-brands`). You can use Boxicons directly in CMS pages, blocks, and widgets:
+The module registers three icon prefixes for Hyvä `SvgIcons`: `boxicons-solid`, `boxicons-outline`, and `boxicons-brands`. Icons can be used directly in CMS pages, blocks, and widgets:
 ```txt
 {{icon "boxicons-solid/home" classes="inline-block w-6 h-6" width=24 height=24}}
 {{icon "boxicons-outline/search" classes="inline-block w-5 h-5" width=20 height=20}}
