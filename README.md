@@ -2,7 +2,7 @@
 
 [![Latest Stable Version](http://poser.pugx.org/aimanecouissi/module-hyva-boxicons/v)](https://packagist.org/packages/aimanecouissi/module-hyva-boxicons) [![Total Downloads](http://poser.pugx.org/aimanecouissi/module-hyva-boxicons/downloads)](https://packagist.org/packages/aimanecouissi/module-hyva-boxicons) [![Magento Version Require](https://img.shields.io/badge/magento-2.4.x-E68718)](https://packagist.org/packages/aimanecouissi/module-hyva-boxicons) [![License](http://poser.pugx.org/aimanecouissi/module-hyva-boxicons/license)](https://packagist.org/packages/aimanecouissi/module-hyva-boxicons) [![PHP Version Require](http://poser.pugx.org/aimanecouissi/module-hyva-boxicons/require/php)](https://packagist.org/packages/aimanecouissi/module-hyva-boxicons) [![Hyvä Compatibility](https://img.shields.io/badge/hyv%C3%A4-compatible-99004D)](https://packagist.org/packages/aimanecouissi/module-hyva-boxicons)
 
-Add **Boxicons** 3.0.7 SVG icon pack to **Hyvä Themes**, with `solid`, `outline`, and `brands` styles each exposed as an `SvgIcons` view model.
+Adds **Boxicons** 3.0.7 SVG icon pack to **Hyvä Themes**, with `solid`, `outline`, and `brands` styles each exposed as an `SvgIcons` view model.
 
 > This module is built specifically for **Hyvä** frontends and assumes you already have a working Hyvä theme.
 
