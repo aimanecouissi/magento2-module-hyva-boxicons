@@ -1,0 +1,44 @@
+{
+    "name": "aimanecouissi/module-hyva-boxicons",
+    "version": "1.0.0",
+    "description": "Add the Boxicons SVG icon set to Hyvä Themes",
+    "type": "magento2-module",
+    "keywords": [
+        "magento2",
+        "magento",
+        "adobe-commerce",
+        "hyva",
+        "hyva-themes",
+        "icons",
+        "svg",
+        "boxicons"
+    ],
+    "homepage": "https://github.com/aimanecouissi/magento2-module-hyva-boxicons",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aimane Couissi",
+            "email": "contact@aimanecouissi.com",
+            "homepage": "https://www.aimanecouissi.com/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "magento/framework": "103.0.*",
+        "hyva-themes/magento2-theme-module": ">=1.1.12",
+        "aimanecouissi/module-hyva-svg-icons": "^1.0"
+    },
+    "support": {
+        "issues": "https://github.com/aimanecouissi/magento2-module-hyva-boxicons/issues",
+        "source": "https://github.com/aimanecouissi/magento2-module-hyva-boxicons"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "AimaneCouissi\\HyvaBoxicons\\": ""
+        }
+    }
+}
